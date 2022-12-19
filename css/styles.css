@@ -1,0 +1,190 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    color: white;
+    background-color: #ff4c68;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    font-family: 'Montserrat, sans-serif';
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+h2 {
+    font-family: 'Montserrat-bold';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding-bottom: 4rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: 'Montserrat-light';
+    font-size: 1rem;
+}
+
+
+/* Buttons */
+
+.downButton {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* Image */
+
+.titImage {
+    width: 50%;
+    transform: rotate(24deg);
+    margin: auto auto -39rem 50px;
+}
+
+
+/* Features */
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.feaHead {
+    font-family: 'Montserrat-bold';
+    text-align: center;
+}
+
+.spac {
+    margin-top: 4%;
+}
+
+.para {
+    color: #8f8f8f;
+}
+
+.tagIcons {
+    color: #ef8172;
+}
+
+.tagIcons:hover {
+    color: #ff4c68;
+}
+
+
+/* Testimonials */
+
+#testimonials {
+    color: white;
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.testImage {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+/* Press */
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 4%;
+    text-align: center;
+}
+
+.logo {
+    width: 200px;
+    margin-left: 20px;
+}
+
+
+/* Pricing */
+
+#pricing {
+    padding: 120px;
+    text-align: center;
+}
+
+.priceList {
+    padding: 3% 2%;
+}
+
+@media (max-width:1000px) {
+    .titImage {
+        transform: rotate(0);
+        position: static;
+        margin: auto auto -3rem 50px;
+    }
+    #title {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+}
+
+
+/* Call to Action */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+    padding: 50px;
+    margin-bottom: 60px;
+}
+
+.ctaHead {
+    font-family: 'Montserrat-bold';
+    font-size: 1.9rem;
+    line-height: 2.5;
+    font-weight: bolder;
+}
+
+.finalButton {
+    margin: 2px 14px auto 3px;
+}
+
+
+/* footer */
+
+#footer {
+    text-align: center;
+    background-color: white;
+}
+
+.footIcons {
+    margin: 3px 5px 15px 4px;
+}
+
+.copyright {
+    color: #8f8f8f;
+}
